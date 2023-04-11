@@ -30,11 +30,11 @@
                       <input type="text" class="form-control" name ="usuario">
                     </div>
                     <div class="mb-3">
-                      <label for="exampleInputPassword1" class="form-label">ContraseÃ±a</label>
+                      <label for="exampleInputPassword1" class="form-label">Contraseña</label>
                       <input type="password" class="form-control" name = "password">
                     </div>
                     <div class="d-grid">
-                      <button type="submit" class="btn btn-primary">Iniciar sesiÃ³n</button>
+                      <button type="submit" class="btn btn-primary">Iniciar sesión</button>
                     </div>
 
                     <div class="my-3">
