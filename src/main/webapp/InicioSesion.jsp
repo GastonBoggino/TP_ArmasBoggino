@@ -38,7 +38,7 @@
                     </div>
 
                     <div class="my-3">
-                      <span>No tienes cuenta? <a href="http://localhost:8080/TrabajoPr%C3%A1ctico_Armas_Boggino/FormularioRegistro.html">Registrate</a></span> <br>
+                      <span>No tienes cuenta? <a href="http://localhost:8080/TP_LucianoGaston_v1.0/FormularioRegistro.html">Registrate</a></span> <br>
                     </div>
                   </form>
               </div>
