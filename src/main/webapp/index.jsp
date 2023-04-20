@@ -71,59 +71,6 @@
   </header>
 </div>
 
-<style>
-.search-wrapper {
-  max-width: 800px;
-  margin: 0 auto;
-}
-
-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.search-container {
-  display: flex;
-  align-items: center;
-  background-color: #f1f1f1;
-  padding: 10px;
-  border-radius: 10px;
-  flex-grow: 1;
-}
-
-input[type="text"] {
-  border: none;
-  padding: 8px;
-  font-size: 16px;
-  background-color: transparent;
-  flex-grow: 1;
-  width: 300px;
-}
-
-input[type="text"]:focus {
-  outline: none;
-}
-
-.filter-container {
-  display: flex;
-  align-items: center;
-}
-
-label {
-  font-size: 14px;
-  margin-right: 10px;
-}
-
-select {
-  border: none;
-  padding: 8px;
-  font-size: 14px;
-  background-color: #fff;
-  border-radius: 5px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-}
-</style>
     
        <%-- ACA TERMINA LA BARRA DE BUSQUEDA Y EL FILTRO --%> 
     
