@@ -76,6 +76,252 @@
     
     
     
+    <%-- ACA EMPIEZA LOS SLIDES CON PRODS --%> 
+    <div class="contCarrusel">
+    <h2>Comidas</h2>
+    <div id="contentItemsCarruselComida">
+      <div class="itemCarrusel" id="item1C">
+        <div class="tarjetaCarrusel" id="tarjeta1">
+          <div class="card">
+            <img src="prods/comida/hamburguesaEspecial.png">
+            <div class="container">
+              <h4><b>Hamb Especial</b></h4>
+              <p id="desc">2 Hamburguesas + lechuga + tomate+ cebolla + cheddar</p>
+              <p id="precio">Precio</p>
+            </div>
+          </div>
+          <div class="card">
+            <img src="prods/comida/hamburguesaSimple.png">
+            <div class="container">
+              <h4><b>Hamb Comun</b></h4>
+              <p id="desc">Hamburguesa + lechuga + tomate + cheddar</p>
+              <p id="precio">Precio</p>
+            </div>
+          </div>
+          <div class="card">
+            <img src="prods/comida/empanadaCarne.png">
+            <div class="container">
+              <h4><b>Empanada Carne</b></h4>
+              <p id="desc">1 docena de empanadas</p>
+              <p id="precio">Precio</p>
+            </div>
+          </div>
+        </div>
+        <div class="flechasCarrusel">
+          <a href="#item4C"><img src="icons/flechaAtras.png"></a>
+          <a href="#item2C"><img src="icons/flechaAdelante.png"></a>
+        </div>
+      </div>
+      <div class="itemCarrusel" id="item2C">
+        <div class="tarjetaCarrusel" id="tarjeta2">
+          <div class="card">
+            <img src="prods/comida/empanadaJyQ.png">
+            <div class="container">
+              <h4><b>Empanada JyQ</b></h4>
+              <p id="desc">1 docena de empanadas</p>
+              <p id="precio">Precio</p>
+            </div>
+          </div>
+          <div class="card">
+            <img src="prods/comida/empanadaPollo.png">
+            <div class="container">
+              <h4><b>Empanada Pollo</b></h4>
+              <p id="desc">1 docena de empanadas</p>
+              <p id="precio">Precio</p>
+            </div>
+          </div>
+          <div class="card">
+            <img src="prods/comida/pizzaNapolitana.png">
+            <div class="container">
+              <h4><b>Pizza Napolitana</b></h4>
+              <p id="desc">Pizza 12 porc</p>
+              <p id="precio">Precio</p>
+            </div>
+          </div>
+        </div>
+        <div class="flechasCarrusel">
+          <a href="#item1C"><img src="icons/flechaAtras.png"></a>
+          <a href="#item3C"><img src="icons/flechaAdelante.png"></a>
+        </div>
+      </div>
+      <div class="itemCarrusel" id="item3C">
+        <div class="tarjetaCarrusel" id="tarjeta3">
+          <div class="card">
+            <img src="prods/comida/pizzaMuzzarella.png">
+            <div class="container">
+              <h4><b>Pizza Muzza</b></h4>
+              <p id="desc">Pizza 12 porc</p>
+              <p id="precio">Precio</p>
+            </div>
+          </div>
+          <div class="card">
+            <img src="prods/comida/pizzaFugazzeta.png">
+            <div class="container">
+              <h4><b>Pizza Fugazza</b></h4>
+              <p id="desc">Pizza 12 porc</p>
+              <p id="precio">Precio</p>
+            </div>
+          </div>
+          <div class="card">
+            <img src="prods/comida/papasCheddar.png">
+            <div class="container">
+              <h4><b>Papas Especial</b></h4>
+              <p id="desc">Papas + Cheddar + Beacon</p>
+              <p id="precio">Precio</p>
+            </div>
+          </div>
+        </div>
+        <div class="flechasCarrusel">
+          <a href="#item2C"><img src="icons/flechaAtras.png"></a>
+          <a href="#item4C"><img src="icons/flechaAdelante.png"></a>
+        </div>
+      </div>
+      <div class="itemCarrusel" id="item4C">
+        <div class="tarjetaCarrusel" id="tarjeta4">
+          <div class="card">
+            <img src="prods/comida/papasSimples.png">
+            <div class="container">
+              <h4><b>Papas</b></h4>
+              <p id="desc">Papas fritas</p>
+              <p id="precio">Precio</p>
+            </div>
+          </div>
+        </div>
+        <div class="flechasCarrusel">
+          <a href="#item3C"><img src="icons/flechaAtras.png"></a>
+          <a href="#item1C"><img src="icons/flechaAdelante.png"></a>
+        </div>
+      </div>
+    </div>
+    <div id="contIndicadores">
+      <a href="#item1C"><img src="icons/indicator.png" id="indic1"></a>
+      <a href="#item2C"><img src="icons/indicator.png" id="indic2"></a>
+      <a href="#item3C"><img src="icons/indicator.png" id="indic3"></a>
+      <a href="#item4C"><img src="icons/indicator.png" id="indic4"></a>
+    </div>
+  </div>
+
+
+  <div  class="contCarrusel">
+    <h2>Bebidas</h2>
+    <div id="contentItemsCarruselBebida">
+      <div class="itemCarrusel" id="item1B">
+        <div class="tarjetaCarrusel" id="tarjeta1">
+          <div class="card">
+            <img src="prods/bebida/agua.png">
+            <div class="container">
+              <h4><b>Agua</b></h4>
+              <p>Bebida</p>
+              <p id="precio">Precio</p>
+            </div>
+          </div>
+          <div class="card">
+            <img src="prods/bebida/aguaSaborizada.png">
+            <div class="container">
+              <h4><b>Agua Saborizada</b></h4>
+              <p>Sabor Pomelo</p>
+              <p id="precio">Precio</p>
+            </div>
+          </div>
+          <div class="card">
+            <img src="prods/bebida/cocacola.png">
+            <div class="container">
+              <h4><b>CocaCola</b></h4>
+              <p>Bebida con gas</p>
+              <p id="precio">Precio</p>
+            </div>
+          </div>
+        </div>
+        <div class="flechasCarrusel">
+          <a href="#item2B"><img src="icons/flechaAtras.png"></a>
+          <a href="#item2B"><img src="icons/flechaAdelante.png"></a>
+        </div>
+      </div>
+      <div class="itemCarrusel" id="item2B">
+        <div class="tarjetaCarrusel" id="tarjeta2">
+          <div class="card">
+            <img src="prods/bebida/sprite.png">
+            <div class="container">
+              <h4><b>Sprite</b></h4>
+              <p>Bebida con gas</p>
+              <p id="precio">Precio</p>
+            </div>
+          </div>
+        </div>
+        <div class="flechasCarrusel">
+          <a href="#item1B"><img src="icons/flechaAtras.png"></a>
+          <a href="#item1B"><img src="icons/flechaAdelante.png"></a>
+        </div>
+      </div>
+    </div>
+    <div id="contIndicadores">
+      <a href="#item1B"><img src="icons/indicator.png" id="indic1"></a>
+      <a href="#item2B"><img src="icons/indicator.png" id="indic2"></a>
+    </div>
+  </div>
+
+
+  <div class="contCarrusel">
+    <h2>Promos</h2>
+    <div id="contentItemsCarruselPromo">
+      <div class="itemCarrusel" id="item1">
+        <div class="tarjetaCarrusel" id="tarjeta1">
+          <div class="card">
+            <img src="prods/promo/empanadaCarneCoca.png">
+            <div class="container">
+              <h4><b>Promo 1</b></h4>
+              <p>1 docena de empanadas + gaseosa</p>
+              <p id="precio">Precio</p>
+            </div>
+          </div>
+          <div class="card">
+            <img src="prods/promo//hamburEspCoca.png">
+            <div class="container">
+              <h4><b>Promo 2</b></h4>
+              <p>Hamburg Especial + Gaseosa</p>
+              <p id="precio">Precio</p>
+            </div>
+          </div>
+          <div class="card">
+            <img src="prods/promo/hamburEspCocaPapasCheddar.png">
+            <div class="container">
+              <h4><b>Promo 3</b></h4>
+              <p>Hamb Esp + Gaseosa + Papas Cheddar</p>
+              <p id="precio">Precio</p>
+            </div>
+          </div>
+        </div>
+        <div class="flechasCarrusel">
+          <a href="#item2"><img src="icons/flechaAtras.png"></a>
+          <a href="#item2"><img src="icons/flechaAdelante.png"></a>
+        </div>
+      </div>
+      <div class="itemCarrusel" id="item2">
+        <div class="tarjetaCarrusel" id="tarjeta2">
+          <div class="card">
+            <img src="prods/promo/napoSprite.png">
+            <div class="container">
+              <h4><b>Promo 4</b></h4>
+              <p>Pizza Napo + Gaseosa</p>
+              <p id="precio">Precio</p>
+            </div>
+          </div>
+        </div>
+        <div class="flechasCarrusel">
+          <a href="#item1"><img src="icons/flechaAtras.png"></a>
+          <a href="#item1"><img src="icons/flechaAdelante.png"></a>
+        </div>
+      </div>
+      </div>
+    <div id="contIndicadores">
+      <a href="#item1"><img src="icons/indicator.png" id="indic1"></a>
+      <a href="#item2"><img src="icons/indicator.png" id="indic2"></a>
+    </div>
+  </div>
+    
+    
+    
+    <%-- ACA TERMINA LOS SLIDES CON PRODS --%> 
     
 </body>
 </html>
