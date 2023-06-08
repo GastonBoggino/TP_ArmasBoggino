@@ -3,7 +3,7 @@ Trabajo práctico integrador para la materia electivav "Lenguaje de programació
 
 Integrantes:
 
-    Armas Luciano (Legajo: )
+    Armas Luciano (Legajo: 47181)
     Boggino Gastón (Legajo: 47153)
 
 <h4>Negocio de pedidos de comida y bebida:<h4>
